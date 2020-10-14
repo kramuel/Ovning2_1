@@ -6,14 +6,16 @@ namespace Ovning2_1
     {
         static void Main(string[] args)
         {
+            //variabler
             int speed;
             string userInput = "";
 
+            //input till speed
             Console.WriteLine("Hur snabbt kör du? ");
             userInput = Console.ReadLine();
             speed = Convert.ToInt32(userInput);
 
-
+            //checka hur snabbt/vilket straff
             if ( speed <= 30 ) {
                 Console.WriteLine("Du kör lagligt!!");
             }
